@@ -35,7 +35,7 @@ const TaskItem = ({ task }) => {
       transition={{ duration: 0.3 }}
       whileHover={{ scale: 1.02 }}
     >
-      {/* Título de la tarea */}
+
       <motion.div
         className="flex-1"
         animate={{
@@ -80,7 +80,7 @@ const TaskItem = ({ task }) => {
         )}
       </motion.div>
 
-      {/* Controles de estado y eliminación */}
+      
       <div className="flex flex-col md:flex-row items-center gap-4">
         <motion.div
           className="relative"
